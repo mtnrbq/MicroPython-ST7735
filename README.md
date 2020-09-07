@@ -1,8 +1,9 @@
 # MicroPython-ST7735
 
-This is a modified version of [GuyCarver's ST7735.py](https://github.com/GuyCarver/MicroPython/blob/master/lib/ST7735.py) ST7735 TFT LCD driver for MicroPython.
+This is a further modified version of [Boochow's ST7735.py](https://github.com/boochow/MicroPython-ST7735)
+which is a modified version of [GuyCarver's ST7735.py](https://github.com/GuyCarver/MicroPython/blob/master/lib/ST7735.py) ST7735 TFT LCD driver for MicroPython.
 
-This version is for micropython-esp32.
+This version is for micropython-esp32, and adds initialization for the [TinyPICO RGB IPS Display Shield](https://www.tinypico.com/add-ons)
 
 A font file is necessary for displaying text (some font files are in [GuyCarver's repo](https://github.com/GuyCarver/MicroPython/tree/master/lib)).
 
